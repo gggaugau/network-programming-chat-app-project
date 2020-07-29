@@ -1,0 +1,147 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --color1: #d92158;
+    --color2: #f59942;
+    --color3: #fff;
+    --color4: #F3F3F3;
+}
+
+#root {
+    height: 100vh;
+    width: 100vw;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.color-text {
+    color: var(--color1);
+}
+
+.btn {
+    color: var(--color3);
+    text-transform: uppercase;
+    text-decoration: none;
+    background: var(--color1) !important;
+    display: inline-block;
+    border: none;
+    transition: all 0.3s ease 0s;
+}
+
+.btn:hover {
+    background: var(--color2) !important;
+    letter-spacing: 2px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.3s ease 0s;
+}
+
+.side-container {
+    min-width: 20vw;
+    width: 20vw;
+    border-right: inset;
+    border-left: outset;
+}
+
+.messages {
+    padding: 5% 3%;
+    overflow: auto;
+    width: 100%;
+    max-width: 80vw;
+    min-height: 80vh;
+    max-height: 80vh;
+}
+
+.type-mess {
+    border-top: outset;
+}
+
+.bg-sender {
+    background-color: var(--color1) !important;
+}
+
+.bg-receiver {
+    background-color: var(--color4) !important;
+}
+
+.messageBox {
+    background: var(--color4);
+    border-radius: 20px;
+    padding: 5px 20px;
+    display: inline-block;
+    max-width: 40%;
+}
+
+.messageText {
+    width: 100%;
+    letter-spacing: 0;
+    float: left;
+    font-size: 1.1em;
+    word-wrap: break-word;
+    text-align-last: left;
+}
+
+.img-btn {
+    max-width: 5vw;
+    vertical-align: middle;
+}
+
+.mess-img {
+    max-width: 300px !important;
+}
+
+.scale-down {
+    max-width: 150px;
+    object-fit: scale-down;
+}
+
+.max-height-10 {
+    min-height: 10vh;
+    max-height: 10vh;
+}
+
+.sidebar-tab {
+    overflow: auto;
+    min-height: 45vh;
+    max-height: 45vh;
+    border-bottom: inset;
+}
+
+.room-tab {
+    overflow: auto;
+    min-height: 70vh;
+    max-height: 70vh;
+    border-bottom: inset;
+}
+
+.request-tab {
+    overflow: auto;
+    min-height: 20vh;
+    max-height: 20vh;
+    border-bottom: inset;
+}
+
+.room:hover {
+    background: var(--color4) !important;
+    letter-spacing: 2px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.3s ease 0s;
+}
+
+.icon:hover {
+    color: var(--color2) !important;
+    letter-spacing: 2px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.3s ease 0s;
+}
